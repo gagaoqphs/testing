@@ -153,7 +153,6 @@ DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(1100231654)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
-pgram = Client("IgrisPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 oko = TelegramClient("saber", API_ID, API_HASH)
 dispatcher = updater.dispatcher
 
